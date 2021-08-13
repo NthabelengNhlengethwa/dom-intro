@@ -1,4 +1,8 @@
-// get a reference to the sms or call radio buttons
+var checkedRadioBtn = document.querySelector("input[name='billItemType']:checked");
+if (checkedRadioBtn){
+    var billItemType = checkedRadioBtn.value
+    // billItemType will be 'call' or 'sms'
+}// get a reference to the sms or call radio buttons
 
 //get a reference to the add button
 

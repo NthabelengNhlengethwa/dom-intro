@@ -1,5 +1,5 @@
 const billStringElement = document.querySelector(".billString");
-function calculateBtnClicked(){ function calculateBtnClicked(){
+function calculateBtnClicked(){
     // get the string entered in the textArea
     var billString = billStringElement.value;
     //split the string

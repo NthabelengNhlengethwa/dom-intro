@@ -25,7 +25,8 @@ function textBillTotal(){
     }
 }
 
-textTotalAddBtn.addEventListener('click', textBillTotal);// get a reference to the textbox where the bill type is to be entered
+document.querySelector(".addToBillBtn").addEventListener('click', textBillTotal);
+// get a reference to the textbox where the bill type is to be entered
 
 //get a reference to the add button
 

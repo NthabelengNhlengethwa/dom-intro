@@ -1,6 +1,6 @@
 var callsTotal = 0;
 var smsTotal = 0;
-var billTypeEntered = 0
+var billTypetext = 0
 function textBillTotal(){
     // get the value entered in the billType textfield
     var billTypeEntered = billTypeText.value(trim())

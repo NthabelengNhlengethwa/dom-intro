@@ -1,10 +1,10 @@
  var callsTotal = 0;
 var smsTotal = 0;
-var billTypetext = 0
-function textBillTotal(){
+var textBillTotal = 0
+function textBill(){
    
     // get the value entered in the billType textfield
-    var billTypeEntered = billTypeText.value
+    var billTypeEntered = textBillTotal.value
     // update the correct total
     if (billTypeEntered === "bill"){
         callsTotal += 2.75
@@ -27,7 +27,7 @@ function textBillTotal(){
     }
 }
 
-document.querySelector(".addToBillBtn").addEventListener('click', textBillTotal);
+document.querySelector(".addToBillBtn").addEventListener('click', textBill);
 // get a reference to the textbox where the bill type is to be entered
 
 //get a reference to the add button
